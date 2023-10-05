@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-from string import ascii_uppercase
-print(ascii_uppercase)
 
+
+import string
+__import__('sys').stdout.buffer.write(string.ascii_uppercase + '\n')
